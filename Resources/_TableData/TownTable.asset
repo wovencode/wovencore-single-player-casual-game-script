@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6aaf796d5884cccb99c395cc708998, type: 3}
+  m_Name: TownTable
+  m_EditorClassIdentifier: 
+  columns:
+  - name: account
+    dataType: 0
+    primaryKey: 0
+    notNull: 1
+  - name: name
+    dataType: 0
+    primaryKey: 0
+    notNull: 1
+  - name: level
+    dataType: 1
+    primaryKey: 0
+    notNull: 1
